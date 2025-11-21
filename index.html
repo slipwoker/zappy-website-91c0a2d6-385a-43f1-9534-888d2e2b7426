@@ -56,7 +56,7 @@
   opacity: 0.7;
 }</style>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -68,7 +68,7 @@
   // Configuration
   var config = {
     websiteId: '91c0a2d6-385a-43f1-9534-888d2e2b7426',
-    apiUrl: 'https://qaapi.zappy5.com/api/analytics/track',
+    apiUrl: 'http://localhost:5001/api/analytics/track',
     sessionDuration: 30 * 60 * 1000, // 30 minutes
     visitorDuration: 30 * 24 * 60 * 60 * 1000, // 30 days
     trackPageViews: true,
@@ -274,7 +274,7 @@
 <div class="container nav-container">
 <div class="nav-brand">
 <a href="/" class="logo-link">
-<img src="assets/kong-ping-food-beverage-logo.webp" alt="Kong-Ping" class="logo" />
+<img src="assets/kong-ping-food-beverage-logo.webp" alt="Kong-Ping" class="logo">
 </a>
 </div>
 <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
@@ -379,23 +379,19 @@
 <section class="values-section">
 <div class="container">
 <h2>What Makes Our Thai Restaurant Special</h2>
-<div class="values-grid">
-<div class="value-card">
-<div class="value-icon"><i class="fas fa-leaf"></i></div>
-<h3>Authentic Ingredients</h3>
-<p>We source traditional Thai ingredients directly from trusted suppliers, ensuring every dish maintains its authentic flavor profile and cultural integrity.</p>
-</div>
-<div class="value-card">
-<div class="value-icon"><i class="fas fa-utensils"></i></div>
-<h3>Master Chefs</h3>
-<p>Our culinary team brings decades of experience from Thailand, trained in both traditional techniques and modern culinary arts to create exceptional dishes.</p>
-</div>
-<div class="value-card">
-<div class="value-icon"><i class="fas fa-heart"></i></div>
-<h3>Cultural Experience</h3>
-<p>Every element of Kong-Ping is designed to provide an immersive cultural journey, from our decor to our service, creating memories beyond just a meal.</p>
-</div>
-</div>
+<div class="values-grid" data-component-id="component-1001-0"><div class="value-card zappy-item-element" data-item-index="0">
+<div class="value-icon"><i class="fas fa-leaf zappy-editable-icon" data-icon-type="fontawesome"></i></div>
+<h3 class="zappy-editable">Authentic Ingredients</h3>
+<p class="zappy-editable">We source traditional Thai ingredients directly from trusted suppliers, ensuring every dish maintains its authentic flavor profile and cultural integrity.</p>
+</div><div class="value-card zappy-item-element" data-item-index="1">
+<div class="value-icon"><span class="zappy-iconify-icon zappy-editable-icon" data-icon-type="iconify" data-iconify="mdi:silverware-variant" style="width: 44.8px; height: 44.8px; display: inline-flex; align-items: center; justify-content: center; color: rgb(255, 107, 53);"><svg xmlns="http://www.w3.org/2000/svg" width="44.8" height="44.8" viewBox="0 0 24 24" fill="currentColor" data-icon-type="iconify" data-iconify="mdi:silverware-variant" style="width: 100%; height: 100%;"><path fill="currentColor" d="M8.1 13.34L3.91 9.16a4.01 4.01 0 0 1 0-5.66l7.02 7zm5.31-.34l6.88 6.88l-1.41 1.41L12 14.41l-6.88 6.88l-1.41-1.41l9.65-9.66l-.2-.22a1.98 1.98 0 0 1 0-2.81l4.34-4.37l.93.92L15.19 7l.96.94l3.24-3.25l.92.92l-3.25 3.24l.94.96l3.26-3.25l.92.94l-4.37 4.34c-.78.78-2.04.78-2.81 0l-.22-.2z"></path></svg></span></div>
+<h3 class="zappy-editable">Master Chefs</h3>
+<p class="zappy-editable">Our culinary team brings decades of experience from Thailand, trained in both traditional techniques and modern culinary arts to create exceptional dishes.</p>
+</div><div class="value-card zappy-item-element" data-item-index="2">
+<div class="value-icon"><i class="fas fa-heart zappy-editable-icon" data-icon-type="fontawesome"></i></div>
+<h3 class="zappy-editable">Cultural Experience</h3>
+<p class="zappy-editable">Every element of Kong-Ping is designed to provide an immersive cultural journey, from our decor to our service, creating memories beyond just a meal.</p>
+</div></div>
 </div>
 </section>
 <section class="cta-section">
@@ -430,8 +426,8 @@
               Accessibility
             </a>
             <span class="separator">|</span>
-            <a href="terms.html" aria-label="Terms & Conditions">
-              Terms & Conditions
+            <a href="terms.html" aria-label="Terms &amp; Conditions">
+              Terms &amp; Conditions
             </a>
           </div>
         </div>
