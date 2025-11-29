@@ -2,8 +2,9 @@
 # These rewrite rules show clean URLs to users while serving .html files
 
 /menu  /menu.html  200
-/about  /about.html  200
 /contact  /contact.html  200
+/yadayada  /yadayada.html  200
+/test2  /test2.html  200
 /  /index.html  200
 
 # 404 fallback

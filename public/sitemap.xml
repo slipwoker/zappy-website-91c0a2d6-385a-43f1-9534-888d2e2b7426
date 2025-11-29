@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com</loc>
-    <lastmod>2025-11-26</lastmod>
+    <loc>https://example.com/menu</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/menu</loc>
-    <lastmod>2025-11-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/about-me</loc>
-    <lastmod>2025-11-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/contact-us-ido</loc>
-    <lastmod>2025-11-26</lastmod>
+    <loc>https://example.com/contact</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/kong-menu-copy1</loc>
-    <lastmod>2025-11-26</lastmod>
+    <loc>https://example.com/yadayada</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/privacy</loc>
-    <lastmod>2025-11-26</lastmod>
+    <loc>https://example.com/test2</loc>
+    <lastmod>2025-11-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/privacy</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/terms</loc>
-    <lastmod>2025-11-26</lastmod>
+    <loc>https://example.com/terms</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://zappy-site-91c0a2d6-385a-43f1-9534.onrender.com/accessibility</loc>
-    <lastmod>2025-11-26</lastmod>
+    <loc>https://example.com/accessibility</loc>
+    <lastmod>2025-11-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
