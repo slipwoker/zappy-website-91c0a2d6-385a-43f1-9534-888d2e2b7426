@@ -374,3 +374,35 @@ window.onload = function() {
         }
     }, true);
 };
+
+/* Added Component Script */
+// Optional: Add staggered animation
+document.addEventListener('DOMContentLoaded', function() {
+  const cards = document.querySelectorAll('.testimonial-card-v2');
+  
+  const observerOptions = {
+    threshold: 0.2,
+    rootMargin: '0px'
+  };
+  
+  const observer = new IntersectionObserver(function(entries) {
+    entries.forEach((entry, index) => {
+      if (entry.isIntersecting) {
+        setTimeout(() => {
+          entry.target.style.opacity = '0';
+          entry.target.style.transform = 'translateY(30px)';
+          entry.target.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+          
+          requestAnimationFrame(() => {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          });
+        }, index * 150);
+        
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+  
+  cards.forEach(card => observer.observe(card));
+});
