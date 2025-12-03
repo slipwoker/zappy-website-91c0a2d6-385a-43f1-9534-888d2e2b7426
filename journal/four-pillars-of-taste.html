@@ -1,9 +1,9 @@
 <!DOCTYPE html><html lang="en" dir="ltr"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Explore Kong-Ping's authentic Thai restaurant menu featuring traditional pad thai, curries, soups, and desserts. Fresh ingredients, authentic recipes.">
-<meta name="keywords" content="Thai restaurant menu, pad thai restaurant, thai thai restaurant, authentic Thai food, Thai curry">
-<title>Thai Restaurant Menu & Specialties — Kong-Ping</title>
+<meta name="description" content="Discover the philosophy of flavor balance: Sweet, Sour, Salty, and Spicy. Why Kong-Ping is the Siam Thai restaurant that masters this art.">
+<meta name="keywords" content="pad thai restaurant, Thai restaurant, thai thai restaurant, siam thai restaurant, authentic Thai food">
+<title>The Four Pillars of Thai Taste - Kong-Ping Journal</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Favicons -->
@@ -60,7 +60,72 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
-<!-- Zappy Analytics -->
+<style id="zappy-ai-page-styles">
+
+
+/* Zappy Base Styles for Edit Mode Compatibility */
+.container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; box-sizing: border-box; }
+.section { padding: 4rem 0; position: relative; display: block !important; }
+/* Reset section grid - sections should contain grids, not BE grids */
+section[data-zappy-section] { display: block !important; grid-template-columns: unset !important; }
+/* Grid layouts - use !important to ensure they apply */
+.grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important; }
+.grid.grid-2 { grid-template-columns: repeat(2, 1fr) !important; }
+.grid.grid-3 { grid-template-columns: repeat(3, 1fr) !important; }
+.grid.grid-4 { grid-template-columns: repeat(4, 1fr) !important; }
+.card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.3s ease, box-shadow 0.3s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 8px 25px rgba(0,0,0,0.15); }
+.card img { width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.btn { display: inline-block; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-weight: 600; transition: all 0.3s ease; cursor: pointer; border: none; }
+.btn-primary { background-color: #d0c0c0; color: white; }
+.btn-primary:hover { filter: brightness(1.1); }
+/* Pricing grid specific - use !important to override AI-generated CSS */
+.pricing-grid { display: grid !important; gap: 2rem !important; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)) !important; }
+.pricing-card { background: #fff !important; border-radius: 16px !important; padding: 2rem !important; box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; transition: transform 0.3s ease, box-shadow 0.3s ease; text-align: center; }
+.pricing-card:hover { transform: translateY(-8px); box-shadow: 0 12px 40px rgba(0,0,0,0.12) !important; }
+.pricing-card.featured, .pricing-card.popular { border: 2px solid #d0c0c0 !important; position: relative; }
+.pricing-card .card-header { padding-bottom: 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem; }
+.pricing-card .card-header h3 { font-size: 1.5rem; margin-bottom: 0.5rem; color: #1f2937; }
+.pricing-card .price { font-size: 2.5rem; font-weight: 700; color: #1f2937; }
+.pricing-card .price .period { font-size: 1rem; font-weight: 400; color: #6b7280; }
+.pricing-card .plan-desc, .pricing-card .description { color: #6b7280; font-size: 0.95rem; margin-top: 0.5rem; }
+.pricing-card .card-body, .pricing-card .card-footer { text-align: center; }
+.pricing-card .features-list { list-style: none !important; padding: 0 !important; margin: 0 0 1.5rem 0 !important; text-align: right; }
+.pricing-card .features-list li { padding: 0.5rem 0; }
+.pricing-card .features-list li.disabled { color: #9ca3af; }
+.pricing-card .popular-badge { background: #d0c0c0; color: white; padding: 0.5rem 1rem; font-size: 0.85rem; font-weight: 600; text-align: center; }
+.pricing-card .btn { display: block; width: 100%; text-align: center; margin-top: 1rem; }
+.btn-outline { background: transparent !important; border: 2px solid #d0c0c0 !important; color: #d0c0c0 !important; }
+.btn-outline:hover { background: #d0c0c0 !important; color: white !important; }
+.card { background: #fff !important; border-radius: 12px !important; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1) !important; }
+@media (max-width: 768px) {
+  .container { padding: 0 1rem; }
+  .section { padding: 2.5rem 0; }
+  .grid { gap: 1.5rem; grid-template-columns: 1fr; }
+  .grid.grid-2, .grid.grid-3, .grid.grid-4 { grid-template-columns: 1fr; }
+  .pricing-grid { grid-template-columns: 1fr; }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid.grid-3, .grid.grid-4 { grid-template-columns: repeat(2, 1fr); }
+}
+/* Hero container fixes - contain absolute images */
+[class*="hero"], [id*="hero"] { position: relative !important; overflow: hidden !important; }
+[class*="hero"] > .container, [id*="hero"] > .container { position: relative; z-index: 2; }
+.hero-image-wrapper, [class*="image-wrapper"] { position: relative !important; overflow: hidden !important; }
+/* Prevent hero positioning on non-hero page images */
+img[data-no-hero-position] { position: static !important; }
+/* Reset hero text colors for AI-generated pages - remove !important color overrides */
+.ai-generated-page .hero-content h1,
+.ai-generated-page .hero-content h2,
+.ai-generated-page .hero-content h3,
+.ai-generated-page .hero-content p,
+.ai-generated-page [class*="hero"] h1,
+.ai-generated-page [class*="hero"] h2,
+.ai-generated-page [class*="hero"] h3,
+.ai-generated-page [class*="hero"] p { color: unset !important; }
+/* End Zappy Base Styles */
+
+</style><!-- Zappy Analytics -->
 <script>
 (function() {
   'use strict';
@@ -298,136 +363,59 @@
 <li class="nav-cta-item"><a href="/contact" class="nav-cta-btn">Contact</a></li>
 </div>
 </div>
-</nav>
-<section class="page-header">
-<div class="container">
-<h1>Our Authentic Thai Restaurant Menu</h1>
-<h3>Discover traditional Thai flavors crafted with passion and authenticity</h3>
-</div>
-</section>
-<section class="menu-intro">
-<div class="container">
-<p>Welcome to Kong-Ping's comprehensive menu, where every dish represents authentic Thai culinary tradition. Our pad thai restaurant specializes in bringing you the true flavors of Thailand, using traditional recipes and the finest ingredients. From street food classics to royal Thai cuisine, our menu offers something for every palate and occasion.</p>
-<p>Whether you're a first-time visitor to a Thai restaurant or a seasoned enthusiast of Southeast Asian cuisine, our menu guides you through Thailand's diverse regional specialties. Each dish is carefully prepared by our master chefs who bring decades of experience from Thailand's most renowned kitchens.</p>
-</div>
-</section>
-<section class="menu-section">
-<div class="container">
-<div class="menu-category">
-<h2>Signature Noodle Dishes</h2>
-<div class="menu-items">
-<div class="menu-item">
-<div class="item-image">
-<img data-placeholder="service-6" data-context="Classic pad thai noodles with shrimp, tofu, egg, bean sprouts, peanuts, lime on banana leaf" src="assets/kong-ping-food-beverage-service-service-6.webp" alt="Classic pad thai noodles with traditional garnishes">
-</div>
-<div class="item-info">
-<h3>Classic Pad Thai</h3>
-<p>The iconic dish that defines our pad thai restaurant. Rice noodles stir-fried with tamarind sauce, your choice of protein, egg, bean sprouts, and crushed peanuts. Served with fresh lime and chili flakes. This beloved street food classic has been perfected over generations and represents the essence of Thai cuisine.</p>
-</div>
-</div>
-<div class="menu-item">
-<div class="item-image">
-<img data-placeholder="service-7" data-context="Pad see ew with wide rice noodles, Chinese broccoli, soy sauce glaze, chicken on white plate" src="assets/kong-ping-food-beverage-service-service-7.webp" alt="Pad see ew with wide noodles and vegetables">
-</div>
-<div class="item-info">
-<h3>Pad See Ew</h3>
-<p>Wide rice noodles stir-fried with sweet soy sauce, Chinese broccoli, egg, and your choice of meat. This thai thai restaurant favorite offers a perfect balance of sweet and savory flavors with a slightly charred taste from high-heat wok cooking. A comfort food that showcases the art of Thai stir-frying.</p>
-</div>
-</div>
-<div class="menu-item">
-<div class="item-image">
-<img data-placeholder="service-8" data-context="Drunken noodles with holy basil, bell peppers, Thai chilies, wide rice noodles, beef" src="assets/kong-ping-food-beverage-service-service-8.webp" alt="Spicy drunken noodles with fresh basil">
-</div>
-<div class="item-info">
-<h3>Drunken Noodles (Pad Kee Mao)</h3>
-<p>Spicy wide rice noodles stir-fried with holy basil, bell peppers, onions, and Thai chilies. This fiery dish gets its name from its reputation as a hangover cure, but it's loved by spice enthusiasts any time. The aromatic holy basil adds an authentic dimension that sets this apart from typical stir-fried noodles.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="menu-category">
-<h2>Authentic Thai Curries</h2>
-<div class="menu-items">
-<div class="menu-item">
-<div class="item-image">
-<img data-placeholder="service-9" data-context="Red curry in traditional bowl with bamboo shoots, Thai eggplant, basil leaves, coconut cream" src="assets/kong-ping-food-beverage-service-service-9.webp" alt="Rich red curry with traditional vegetables">
-</div>
-<div class="item-info">
-<h3>Red Curry (Gaeng Phed)</h3>
-<p>A cornerstone of siam thai restaurant menus, our red curry features a rich coconut-based sauce with red curry paste, bamboo shoots, Thai eggplant, and basil. The perfect balance of spicy, sweet, and savory makes this a perennial favorite. Served with jasmine rice to complement the bold flavors.</p>
-</div>
-</div>
-<div class="menu-item">
-<div class="item-image">
-<img data-placeholder="service-10" data-context="Massaman curry with potatoes, peanuts, tender beef chunks, cinnamon stick in decorative bowl" src="assets/kong-ping-food-beverage-service-service-10.webp" alt="Massaman curry with aromatic spices">
-</div>
-<div class="item-info">
-<h3>Massaman Curry</h3>
-<p>A royal Thai curry with Persian influences, featuring tender meat slow-cooked with potatoes, peanuts, and aromatic spices including cinnamon and cardamom. This milder, slightly sweet curry represents the sophistication of Thai royal cuisine and has been recognized internationally as one of the world's most delicious dishes.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="menu-category">
-<h2>Traditional Soups &amp; Salads</h2>
-<div class="menu-description">
-<p>Thai soups and salads are known for their bold, refreshing flavors that awaken the palate. Our thai thai restaurant preparations stay true to authentic recipes, using fresh herbs and traditional techniques.</p>
-</div>
-<div class="menu-list">
-<div class="menu-list-item">
-<h3>Tom Yum Soup</h3>
-<p>The iconic hot and sour soup with lemongrass, galangal, kaffir lime leaves, mushrooms, and your choice of protein. Available in clear or creamy coconut milk version.</p>
-</div>
-<div class="menu-list-item">
-<h3>Tom Kha Gai</h3>
-<p>Creamy coconut soup with chicken, galangal, lemongrass, and mushrooms. Milder than Tom Yum but equally aromatic and comforting.</p>
-</div>
-<div class="menu-list-item">
-<h3>Som Tam (Papaya Salad)</h3>
-<p>Fresh green papaya salad with tomatoes, long beans, peanuts, and dried shrimp. Pounded to order with lime, fish sauce, and Thai chilies for a perfect balance of sweet, sour, salty, and spicy.</p>
-</div>
-<div class="menu-list-item">
-<h3>Larb Gai</h3>
-<p>Minced chicken salad with toasted rice powder, mint, cilantro, and lime juice. A northeastern Thai specialty that's both refreshing and flavorful.</p>
-</div>
-</div>
-</div>
-<div class="menu-category">
-<h2>Rice &amp; Fried Rice Specialties</h2>
-<div class="menu-list">
-<div class="menu-list-item">
-<h3>Thai Basil Fried Rice</h3>
-<p>Jasmine rice stir-fried with holy basil, Thai chilies, garlic, and your choice of protein. A simple yet incredibly flavorful dish that showcases the importance of fresh herbs in Thai cooking.</p>
-</div>
-<div class="menu-list-item">
-<h3>Pineapple Fried Rice</h3>
-<p>Jasmine rice stir-fried with fresh pineapple, cashews, raisins, and curry powder. Served in a hollowed pineapple half for an impressive presentation.</p>
-</div>
-<div class="menu-list-item">
-<h3>Crab Fried Rice</h3>
-<p>Premium jasmine rice stir-fried with fresh crab meat, egg, and scallions. A luxurious version of a Thai restaurant classic.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="menu-note">
-<div class="container">
-<h2>About Our Ingredients &amp; Preparation</h2>
-<p>At Kong-Ping, we take pride in sourcing authentic Thai ingredients to ensure every dish maintains its traditional flavor profile. Our pad thai restaurant uses imported Thai rice noodles, fresh Thai basil, galangal, and kaffir lime leaves. We prepare our curry pastes from scratch daily, grinding fresh chilies, lemongrass, and aromatic spices using traditional methods.</p>
-<p>For our valued guests with dietary restrictions, we offer vegetarian and vegan options for most dishes. Our chefs can adjust spice levels to your preference, from mild to authentically Thai spicy. Please inform our staff of any allergies or dietary requirements, and we'll be happy to accommodate your needs while maintaining the authentic flavors you expect from a quality Thai restaurant.</p>
-</div>
-</section>
-<section class="menu-cta">
-<div class="container">
-<h2>Ready to Taste Authentic Thai Cuisine?</h2>
-<p>Visit Kong-Ping to experience these traditional dishes prepared by master chefs. Make a reservation today.</p>
-<a href="/contact" class="btn-primary">Reserve Your Table</a>
-</div>
-</section>
-<a href="https://wa.me/[whatsapp_handle]" target="_blank" class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">
-<i class="fab fa-whatsapp"></i>
-</a>
+</nav><main class="page-main blog-page ai-generated-page">
+  <!-- Article Hero -->
+  <section class="section article-hero" id="article-3-hero" style="background-color: #e0e0d0 !important; padding: 4rem 0;; position: relative; overflow: hidden;" data-zappy-section="true">
+    <div class="container" style="max-width: 900px; margin: 0 auto; padding: 0 1.5rem;">
+      <h1 style="color: #501010 !important; font-size: 3rem; margin-bottom: 1.5rem; line-height: 1.2;">The Four Pillars of Thai Taste</h1>
+      <div class="article-meta" style="color: #8B0000 !important; font-weight: 600; margin-bottom: 2rem;">Published by Kong-Ping Kitchen | Culinary Philosophy</div>
+      <img data-placeholder="thai-spices-spoons" data-context="Four spoons containing sugar, lime juice, fish sauce, and chili flakes representing the four flavors" data-zappy-editable-image="true" src="assets/page-thai-spices-spoons-1764759556211.webp" alt="The four flavors of Thai cuisine" style="width: 100%; aspect-ratio: 21/9; object-fit: cover; border-radius: 8px; margin-bottom: 2rem;" class="generated-image">
+    </div>
+  </section>
+
+  <!-- Article Content -->
+  <section class="section article-content" id="article-3-content" style="background-color: #d0d0c0 !important; padding: 2rem 0 5rem;" data-zappy-section="true">
+    <div class="container" style="max-width: 800px; margin: 0 auto; padding: 0 1.5rem;">
+      <p style="color: #303030 !important; font-size: 1.125rem; line-height: 1.8; margin-bottom: 2rem;">
+        Western cuisine often separates courses by flavor—salty appetizers, savory mains, sweet desserts. Thai cuisine, however, seeks to combine conflicting flavors into a harmonious whole within a single dish. This philosophy is known as the "Four Pillars of Taste": Sweet, Sour, Salty, and Spicy. Mastering this balance is what defines a chef at a top <strong>Siam Thai restaurant</strong>.
+      </p>
+
+      <h2 style="color: #501010 !important; font-size: 2rem; margin-top: 3rem; margin-bottom: 1.5rem;">Sweet and Sour: The Yin and Yang</h2>
+      <p style="color: #303030 !important; font-size: 1.125rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Sweetness in Thai food rarely comes from refined white sugar. Instead, we use Palm Sugar, which has a rich, caramel-like complexity. It rounds out the sharp edges of other ingredients. This is counteracted by Sourness, usually provided by lime juice, tamarind, or sometimes green mango. 
+      </p>
+      <p style="color: #303030 !important; font-size: 1.125rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        In a dish like Som Tum (Papaya Salad), the palm sugar and lime juice wrestle for dominance, creating a vibrant dressing that makes the salad refreshing yet satisfying. At our <strong>pad thai restaurant</strong>, we ensure our Pad Thai sauce hits the perfect middle ground between the deep sweetness of palm sugar and the tartness of tamarind.
+      </p>
+
+      <h2 style="color: #501010 !important; font-size: 2rem; margin-top: 3rem; margin-bottom: 1.5rem;">Salty and Spicy: The Punch</h2>
+      <p style="color: #303030 !important; font-size: 1.125rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        Saltiness in Thai cooking is almost exclusively derived from fish sauce (Nam Pla). It is pungent and distinct, providing a savory umami depth that salt crystals cannot match. It anchors the lighter flavors. Finally, Spiciness brings the excitement. Fresh or dried chilies stimulate the palate and induce a physical reaction—the "Thai sweat"—which actually helps cool the body in tropical heat.
+      </p>
+      <p style="color: #303030 !important; font-size: 1.125rem; line-height: 1.8; margin-bottom: 1.5rem;">
+        A true <strong>Thai Thai restaurant</strong> doesn't just make food hot for the sake of it. The heat is a vehicle for flavor. In a Green Curry, the heat cuts through the rich coconut milk, preventing it from becoming cloying. 
+      </p>
+
+      <h2 style="color: #501010 !important; font-size: 2rem; margin-top: 3rem; margin-bottom: 1.5rem;">The Harmony of the Meal</h2>
+      <p style="color: #303030 !important; font-size: 1.125rem; line-height: 1.8; margin-bottom: 2rem;">
+        When dining at Kong-Ping, we encourage you to order a spread of dishes to share. A spicy curry should be balanced by a mild soup; a rich fried dish should be offset by a tart salad. This communal style of eating allows you to experience the interplay of the Four Pillars across the entire table. It is the definitive way to enjoy a meal at a <strong>Thai restaurant</strong>.
+      </p>
+      
+      <div style="background-color: #e0e0d0 !important; padding: 2rem; border-left: 4px solid #8B0000; margin-top: 3rem;">
+        <h3 style="color: #501010 !important; font-size: 1.5rem; margin-bottom: 1rem;">Find Your Balance</h3>
+        <p style="color: #303030 !important; margin-bottom: 1.5rem;">Let our chefs guide your palate through the perfect harmony of flavors.</p>
+        <a href="/reservations" class="btn" style="background-color: #8B0000; color: #ffffff !important; padding: 0.75rem 1.5rem; text-decoration: none; border-radius: 4px; font-weight: 600; display: inline-block;">Reserve a Table</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+
+
+
+
 
     <!-- Legal Footer -->
     <footer class="legal-footer">
